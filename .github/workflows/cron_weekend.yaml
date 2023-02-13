@@ -6,6 +6,6 @@ on:
 
 jobs:
   call-delete-all-webhooks:
-    uses: hashicorp/terraform-random-1/.github/workflows/delete_all_webhooks.yml@main
+    uses: hashicorp/terraform-random-1/.github/workflows/delete_all_webhooks.yaml@main
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
